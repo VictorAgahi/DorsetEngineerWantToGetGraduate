@@ -46,7 +46,7 @@ const Home = () => {
             </div>
             <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
               <img
-                  src="../../public/images/Dorset.jpg"
+                  src="DorsetEngineerWantToGetGraduate/images/Dorset.jpg"
                   alt="mockup"
               />
             </div>
@@ -88,7 +88,7 @@ const Home = () => {
           <Card
               className="max-w-sm mx-auto"
               imgAlt="Texte alternatif significatif pour une image qui n'est pas purement décorative"
-              imgSrc="../../public/images/sddefault.jpg"
+              imgSrc="DorsetEngineerWantToGetGraduate/images//sddefault.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               How to get a Seg Fault ?
@@ -103,7 +103,7 @@ const Home = () => {
           <Card
               className="max-w-sm mx-auto"
               imgAlt="Texte alternatif significatif pour une image qui n'est pas purement décorative"
-              imgSrc="../../public/images/failed-escalator.jpg"
+              imgSrc="DorsetEngineerWantToGetGraduate/images/failed-escalator.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               How can one detect a wall from an image ?
@@ -120,7 +120,7 @@ const Home = () => {
           <Card
               className="max-w-sm mx-auto"
               imgAlt="Texte alternatif significatif pour une image qui n'est pas purement décorative"
-              imgSrc="../images/project-fashion.jpg"
+              imgSrc="DorsetEngineerWantToGetGraduate/images//project-fashion.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Dorset Projects
