@@ -9,7 +9,7 @@ const FooterApp = () => {
             <Footer.Brand>
               <Link to="/">
                 <img
-                    src="../public/images/website-logo-sample.png"
+                    src="images/website-logo-sample.png"
                     className="mr-3 h-6 sm:h-9"
                     alt="Sample website logo"
                 />
@@ -19,7 +19,8 @@ const FooterApp = () => {
               <Footer.Link href="#" style={{ color: "#fff" }}>
                 About
               </Footer.Link>
-              <Footer.Link href="#" style={{ color: "#fff" }}>
+              <Footer.Link href="privacy" style={{ color: "#fff" }}>
+
                 Privacy Policy
               </Footer.Link>
               <Footer.Link href="#" style={{ color: "#fff" }}>

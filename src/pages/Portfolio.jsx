@@ -16,7 +16,7 @@ const CardContainer = (props) => (
             <p className="font-normal text-gray-700 dark:text-gray-400">
                 {props.description}
             </p>
-            <Link to="/projects">
+            <Link to={props.link}>
                 <Button>Watch</Button>
             </Link>
         </Card>
@@ -154,13 +154,12 @@ const Portfolio = () => {
                 <Skills/>
                 <Typography variant="h2" gutterBottom>Projects</Typography>
                 <div className="grid grid-cols-3 gap-4">
-                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-fashion.jpg" name="Super Snazzy Fashion" description="Developing a Super Snazzy Fashion Website with sleek designs, seamless navigation, and cutting-edge features to captivate users and elevate their online shopping experience"/>
-                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-crypto-wallet.jpg" name="Super Snazzy Crypto Wallet" description="The Super Snazzy Crypto Wallet is a cutting-edge digital asset management solution designed to revolutionize the way users interact with cryptocurrencies."></CardContainer>
-                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-smoothie.jpg" name="Smooth Smootie" description="Smooth Smootie is not just your ordinary smoothie; it's a flavorful journey packed with freshness and vitality. Crafted with a blend of handpicked fruits, nutrient-rich greens, and wholesome ingredients"></CardContainer>
-
-                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-hero.png" name="Project Hero" description="Project Hero in the realm of computer science is a platform dedicated to empowering individuals passionate about technology, coding, and computer science. It serves as a hub for resources, tools."/>
+                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-fashion.jpg" name="Super Snazzy Fashion" description="Developing a Super Snazzy Fashion Website with sleek designs, seamless navigation, and cutting-edge features to captivate users and elevate their online shopping experience" link="https://victoragahi.github.io/portfolio/fashion/index.html"/>
+                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-crypto-wallet.jpg" name="Super Snazzy Crypto Wallet" description="The Super Snazzy Crypto Wallet is a cutting-edge digital asset management solution designed to revolutionize the way users interact with cryptocurrencies."  link="https://victoragahi.github.io/portfolio/cryptoWallet/index.html"></CardContainer>
+                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-smoothie.jpg" name="Smooth Smootie" description="Smooth Smootie is not just your ordinary smoothie; it's a flavorful journey packed with freshness and vitality. Crafted with a blend of handpicked fruits, nutrient-rich greens, and wholesome ingredients" link="https://victoragahi.github.io/portfolio/smoothies/index.html"></CardContainer>
+                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/project-hero.png" name="Project Hero" description="Project Hero in the realm of computer science is a platform dedicated to empowering individuals passionate about technology, coding, and computer science. It serves as a hub for resources, tools." link="https://victoragahi.github.io/portfolio/project-hero/index-1.html"/>
                     <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/pexels-pixabay-247791.jpg" name="Pexels Pixabay" description="Pexels and Pixabay are both popular websites for accessing high-quality, free stock photos and videos. They offer a vast collection of images and videos that can be used for personal or commercial projects without attribution, making them valuable resources for designers, bloggers, marketers, and content creators."></CardContainer>
-                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/store.png" name="Store" description="An online bookstore is a virtual marketplace where customers can buy, and download books in various formats such as e-books, and physical copies.These platforms  offer a wide selection of titles across different genres and categories, providing accessibility to readers worldwide."></CardContainer>
+                    <CardContainer imgSrc="DorsetEngineerWantToGetGraduate/images/store.png" name="Store" description="An online bookstore is a virtual marketplace where customers can buy, and download books in various formats such as e-books, and physical copies.These platforms  offer a wide selection of titles across different genres and categories, providing accessibility to readers worldwide." link="https://victoragahi.github.io/portfolio/store/index.html"></CardContainer>
                 </div>
 
 

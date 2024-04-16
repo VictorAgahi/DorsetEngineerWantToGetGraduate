@@ -23,7 +23,7 @@ const Home = () => {
                   to="/projects"
                   className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
               >
-                Voir les projets
+                Check
                 <svg
                     className="w-5 h-5 ml-2 -mr-1"
                     fill="currentColor"
@@ -96,7 +96,7 @@ const Home = () => {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Learn how to trigger a segfault, but more importantly, understand how to encounter a bus error.
             </p>
-            <Link to="/projects">
+            <Link to="https://www.youtube.com/watch?v=iSfyb-lGQPM">
               <Button>Learn With Me</Button>
             </Link>
           </Card>
@@ -113,7 +113,7 @@ const Home = () => {
               You can provide assistance to teams by identifying patterns in past mistakes, enabling them to learn from
               them and prevent their recurrence in the future.
             </p>
-            <Link to="/projects">
+            <Link to="https://www.youtube.com/watch?v=fFDjsrKto-U">
               <Button>Learn With Me</Button>
             </Link>
           </Card>
@@ -129,8 +129,8 @@ const Home = () => {
               Developing a Super Snazzy Fashion Website with sleek designs, seamless navigation, and cutting-edge
               features to captivate users and elevate their online shopping experience
             </p>
-            <Link to="/projects">
-              <Button>Watch</Button>
+            <Link to="https://victoragahi.github.io/portfolio/fashion/index.html">
+              <Button >Watch</Button>
             </Link>
           </Card>
         </section>

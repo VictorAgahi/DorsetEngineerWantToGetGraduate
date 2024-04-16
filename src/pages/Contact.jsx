@@ -75,6 +75,7 @@ const Contact = () => {
                         type="submit"
                         variant="contained"
                         color="primary"
+                        onClick={window.location.href="/bruh"}
                         style={{ marginTop: '16px' }}
                     >
                         Submit

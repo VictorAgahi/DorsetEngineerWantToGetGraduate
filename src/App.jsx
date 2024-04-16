@@ -7,6 +7,7 @@ import NavbarApp from "./pages/NavbarApp";
 import FooterApp from "./pages/FooterApp";
 
 import { Routes, Route } from "react-router-dom";
+import Bruh from "./pages/Bruh.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
         <Route path="privacy" element={<Privacy />} />
+          <Route path="bruh" element={<Bruh />} />
       </Routes>
       <FooterApp />
     </>

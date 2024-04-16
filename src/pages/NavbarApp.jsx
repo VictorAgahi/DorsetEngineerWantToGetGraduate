@@ -29,7 +29,11 @@ function NavbarApp() {
                 <Navbar.Link className="mx-2">
                     <Link to="/portfolio">Portfolio</Link>
                 </Navbar.Link>
+                <Navbar.Link className="mx-2">
+                    <Link to="https://victoragahi.github.io/">Pro</Link>
+                </Navbar.Link>
             </Navbar.Collapse>
+
         </Navbar>
     );
 }
